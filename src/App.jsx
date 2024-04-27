@@ -25,6 +25,17 @@ const imageData = ()=>{
 
 function App() {
   // code here
+  const getimage = imageData();
+  return (
+    <> 
+      <h1>KALVIUM GALLERY</h1> 
+      <div className="app">
+      {getimage.map((ele)=>{
+        return <img src={ele.img} alt="elephant" key={ele.id}/>
+      })}
+    </div>
+    </>
+  );
 }
 
 export default App;

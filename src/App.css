@@ -1,1 +1,18 @@
 /* add your styles here */
+
+
+.app {
+    display:flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    justify-content: center;
+}
+img {
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+
+}
+h1{
+    text-align: center;
+}
